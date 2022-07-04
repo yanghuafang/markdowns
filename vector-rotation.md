@@ -45,6 +45,9 @@ direction and points to right. That is to say direction rotates -90 degrees to
 slope.  
 $direction=Eigen::Vector2f(x, y)$  
 $slope=Eigen::Vector2f(y, -x)$  
+or  
+$slope=Eigen::Vector2f(x, y)$
+$direction=Eigen::Vector2f(-y, x)$
   
 Represented by matrix multiplication format:  
 $
